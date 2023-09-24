@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Report</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: "poppins", sans-serif;
+      }
+      :root {
+        --bg-color: #efb495;
+        --text-color: #ef9595;
+        --second-color: #662549;
+      }
+
+      .header {
+        position: fixed;
+        top: 0;
+        width: 100vw;
+        padding: 1rem 5%;
+        background: var(--text-color);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 10;
+        animation: animate 1s ease-in-out;
+      }
+      @keyframes animate {
+        0% {
+          transform: translateY(-70%);
+        }
+        100% {
+          transform: translateY(0);
+        }
+      }
+      .navbar a {
+        text-decoration: none;
+        color: white;
+        margin-left: 20px;
+        font-weight: bold;
+      }
+      .logo {
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+      }
+
+      .body-content {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+      }
+      .body-content h1 {
+        color: var(--second-color);
+        font-size: 3rem;
+        font-weight: bold;
+      }
+      .get-start-btn {
+        height: 3rem;
+        border: none;
+        background-color: var(--text-color);
+        border-radius: 10px;
+        font-weight: bold;
+        color: white;
+        width: 120px;
+        margin-top: 20px;
+      }
+      .container {
+        display: flex;
+        justify-content: center;
+      }
+      .result-conatiner {
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+        box-shadow: 0px px 2px 0px;
+        height: 70px;
+        width: 70%;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header shadow">
+      <a href="#" class="logo">#.</a>
+
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#MainSection">Main</a>
+        <a href="#home">Contact</a>
+      </nav>
+    </header>
+
+    <div class="container">
+      <div class="result-conatiner">
+        <h1>Result:</h1>
+        <h1>{{ result }}</h1>
+      </div>
+    </div>
+  </body>
+</html>
