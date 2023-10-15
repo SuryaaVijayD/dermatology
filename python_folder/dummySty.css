@@ -1,0 +1,379 @@
+
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: "poppins", sans-serif;
+      }
+
+
+
+      .header h1 {
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+      }
+
+      .header p {
+        font-size: 1.2rem;
+      }
+
+
+
+      :root {
+        --bg-color: #efb495;
+        --text-color: #ef9595;
+        --second-color: #662549;
+      }
+      .navbar a:hover {
+        font-weight: bold;
+        color: white;
+      }
+
+      .logo {
+        color: var(--second-color);
+        text-decoration: none;
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+      .page-content-container {
+        height: 100vh;
+        width: 100vw;
+        background-image: url("https://res.cloudinary.com/dvp9gkjpk/image/upload/v1695658692/high_doctor_pl72qd.jpg");
+        background-size: cover;
+        z-index: -1;
+      }
+      .page-overview{
+        height: 100vh;
+        width: 100vw;
+        background: transparent;
+      }
+      .page-content {
+        flex: 1; /* Grow and occupy remaining space */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 50%;
+      }
+      .heading {
+        font-weight: bold;
+        font-size: 4rem;
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        letter-spacing: 5px;
+      }
+      .img-content {
+        width: 50%;
+        height: 100vh;
+        background-size: cover;
+      }
+      
+    
+      .anchor {
+        font-size: 1rem;
+      }
+
+      /*div {
+        margin-top: 40px;
+        padding: 10px;
+      }*/
+      :root {
+        --bg-color: #efb495;
+        --text-color: #ef9595;
+        --second-color: #662549;
+      }
+      .inner-class {
+        position: relative;
+        top: 20%;
+        text-align: center;
+      }
+      .btn-skn {
+        margin-right: 50px;
+      }
+      .enter-text {
+        transition: letter-spacing 0.5s ease-in;
+      }
+      .enter-text:hover {
+        letter-spacing: 1px;
+      }
+      .disclaimer-part {
+        font-size: 20px;
+      }
+      .disclaimer-part span {
+        color: #662549;
+        font-weight: bold;
+      }
+      .video-line {
+        display: flex;
+        overflow-x: auto;
+      }
+      .embed-responsive {
+        flex: 0 0 auto;
+        margin-right: 10px;
+      }
+      .embed-responsive:last-child {
+        margin-right: 0;
+      }
+      .header {
+        position: fixed;
+        top: 0;
+        width: 100vw;
+        padding: 1rem 5%;
+        background: var(--text-color);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 10;
+        animation: animate 1s ease-in-out;
+      }
+      @keyframes animate {
+        0% {
+          transform: translateY(-70%);
+        }
+        100% {
+          transform: translateY(0);
+        }
+      }
+      .navbar a {
+        text-decoration: none;
+        color: skyblue;
+        margin-left: 20px;
+        font-weight: bold;
+      }
+      .logo {
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+      }
+
+      .body-content {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+      }
+      .body-content h1 {
+        color: var(--second-color);
+        font-size: 3rem;
+        font-weight: bold;
+      }
+      .get-start-btn {
+        height: 3rem;
+        border: none;
+        background-color: skyblue;
+        border-radius: 10px;
+        font-weight: bold;
+        color: white;
+        width: 120px;
+        margin-top: 20px;
+        transition: 0.2s ease-in;
+      }
+      .get-start-btn:hover {
+        width: 130px;
+        height: 3.1rem;
+        color: #662549;
+        box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.5);
+      }
+      #HomePage {
+        height: 100vh;
+        width: 100vw;
+      }
+
+      #MainSection {
+        height: 100vh;
+        width: 100vw;
+      }
+      .inner-class {
+        position: relative;
+        top: 20%;
+        text-align: center;
+      }
+      .about-section {
+        background-color: #f6f6fa;
+        padding: 60px 0;
+        text-align: center;
+      }
+
+      .about-section h2 {
+        font-size: 2rem;
+        color: #333;
+        margin-bottom: 20px;
+      }
+
+      .about-section p {
+        font-size: 1.2rem;
+        color: #555;
+      }
+      .white-bg-section {
+        background-color: white;
+        padding: 20px; /* Adjust the padding as needed */
+      }
+      .bottom-section {
+        background-color: lightgray; /* Change the background color */
+        padding: 20px; /* Adjust the padding as needed */
+      }
+      /* Card content structure */
+      .card-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        padding: 20px;
+      }
+
+      .card {
+        width: 30%;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 20px;
+        margin: 10px;
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+        background-color: #fff;
+        text-align: center;
+      }
+
+      .card h3 {
+        font-size: 1.5rem;
+        color: #333;
+        padding-bottom: 15px;
+      }
+
+      .card p {
+        font-size: 1.2rem;
+        color: #555;
+      }
+
+      .input-text-field {
+        width: 80%;
+        outline: none;
+        border: none;
+        border-bottom: 2px solid black;
+      }
+      label {
+        text-align: left;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: var(--second-color);
+        font-weight: bold;
+      }
+      
+      .btn-submit {
+        border: 2px solid skyblue;
+        position: relative;
+        background: transparent;
+        color: skyblue;
+        height: 3rem;
+        width: 160px;
+        border-radius: 5px;
+        overflow: hidden;
+        overflow: 1; 
+        font-weight: bold;
+        transition: .2s ease-in;
+      }
+      .btn-submit:hover{
+        color: white;
+        font-weight: bold;
+      }
+      .btn-submit::before{
+        width: 0;
+        position: absolute;
+        top: 0;
+        height: 3rem;
+        content: "";
+        left: 0;
+        background-color: skyblue;
+        z-index: -1;
+        transition: .3s ease-in; 
+      }
+      .btn-submit:hover::before{
+        width: 160px;
+      }
+      .upload-file {
+        border: none;
+      }
+      .para {
+        color: var(--second-color);
+        padding: 10px;
+        font-weight: bold;
+      }
+      .radio-btn {
+        margin-right: 5px;
+      }
+      .gender-label {
+        color: var(--second-color);
+      }
+      .navbar a:hover {
+        font-weight: bold;
+        color: white;
+      }
+      .alter {
+        height: 50px;
+        width: 50px;
+        margin-left: 45%;
+        margin-bottom: 15px;
+      }
+      .pg-main-container {
+        height: 90%;
+        width: 100%;
+        background: linear-gradient(to bottom, #f6f6fa 70%, white 70%);
+      }
+
+
+
+
+
+
+/* Reset default margin and padding */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the background image */
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Place the background behind other content */
+}
+
+.background img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the entire background */
+}
+
+/* Create a dark transparent overlay */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Adjust the transparency here */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1; /* Place the overlay above the background */
+}
+
+/* Style the content on top of the overlay */
+.content {
+    text-align: center;
+    color: white;
+}
+
+/* Additional styling for your content */
+.content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 18px;
+}
+
+
+
